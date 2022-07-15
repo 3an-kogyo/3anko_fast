@@ -1,4 +1,5 @@
 body {
+  width: 100%;
   font-family: 'Noto Sans JP', sans-serif;
   margin: 0px;
   margin-bottom: 0px;
@@ -7,12 +8,10 @@ body {
 
 header {
   background-color: white;
-  max-width: 1100px;
-  width: 100%;
+  width: 800px;
 }
 
 img.title {
-  froat: left;
   width: 500px;
   margin-bottom: 25px;
   bottom: 25px;
@@ -27,8 +26,7 @@ img.header_back {
 
 nav.header_menu {
   display: block;
-  max-width: 1100px;
-  width: 100%;
+  width: 800px;
   max-height: 64.5px;
   position: relative;
   top: 1.6px;
@@ -152,7 +150,7 @@ nav.side_menu {
   background: hsla(193, 39%, 58%, 0.72);
 }
 
-#back {
+.back {
   margin: 0px;
   display: block;
   position: relative;
@@ -164,12 +162,8 @@ nav.side_menu {
   background: hsla(193, 39%, 45%, 0.72);
 }
 
-#side_menu {
+.side_menu {
   margin: 0px;
-}
-
-#side_sub_btn {
-  text-indent: 1em;
 }
 
 a.side_btn {
@@ -209,9 +203,9 @@ a.side_btn:hover {
 div.home{
   display: block;
   padding: 5px;
-  max-width: 880px;
-  width: 77.6%;
+  width: 580px;
   height: 1800px;  /*サイトの長さ*/
+  margin-left: 210px;
   background: white;
 }
 
@@ -233,7 +227,7 @@ h3 {
   font-size: 100%;
 }
 
-#important {
+.important {
   color: #f00000;
 }
 
@@ -316,8 +310,7 @@ a.pdf {
 
 footer {
   display: block;
-  max-width: 1100px;
-  width: 100%;
+  width: 800px;
   max-height: 64px;
   height: 100%;
   background: #0f618a;
@@ -334,3 +327,4 @@ a.normal {
 
 .main:hover .sub {
   display: block;
+}
