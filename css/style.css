@@ -168,15 +168,15 @@ a.tw-follow-btn {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 130px;
-	height: 32px;
+	width: 124px;
+	height: 28px;
 	color: #fff;
-	font-size: 15px;
+	font-size: 13px;
 	font-family: 'Helvetica Neue', Arial, sans-serif;
 	text-decoration: none;
-	line-height: 1;
+	line-height: 2;
 	background-color: #1d9bf0;
-	border-radius: 14px;
+	border-radius: 15px;
 	letter-spacing: normal;
 }
 a.tw-follow-btn:hover {
