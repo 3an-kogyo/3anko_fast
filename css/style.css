@@ -1,21 +1,18 @@
 body {
   font-family: YuGothic, 'Yu Gothic Medium', 'ヒラギノ角ゴシック', Meiryo, sans-serif;
   margin: 0px;
-  margin-bottom: 0px;
   background-color: #d1ecfa;
 }
 
 header {
   background-color: white;
-  max-width: 1100px;
   margin-left: 200px;
-  width: 100%;
+  width: 1100px;
 }
 
 img.title {
   width: 500px;
   margin-bottom: 25px;
-  bottom: 25px;
 }
 
 img.header_back {
@@ -25,18 +22,13 @@ img.header_back {
   bottom: 5px;
 }
 
+/*header_menu*/
 nav.header_menu {
   display: block;
-  max-width: 1100px;
-  width: 100%;
-  max-height: 64.5px;
-  position: relative;
-  top: 1.6px;
-  height: 100%;
+  width: 1100px;
+  height: 64.5px;
   margin-left: 200px;
-  background: #1791cf;
-  background:
-    linear-gradient(#3eb0ea, #1588c1) #0f618a;
+  background: linear-gradient(#3eb0ea, #1588c1) #0f618a;
   font-weight: bold;
 }
 
@@ -48,21 +40,20 @@ td {
 }
 
 a.btn {
-  border-right: 0.5px solid #0c4d6e;
+  border-right: 1.5px solid #0c4d6e;
   width: 160px;
   height: 44px;
   text-align: center;
   padding-top: 20px;
-  background: #1791cf;
-  background:
-    linear-gradient(#3eb0ea, #1588c1) #0f618a;
+  background: linear-gradient(#3eb0ea, #1588c1) #0f618a;
   display: block;
   text-decoration: none;
   color: black;
+  position: relative;
+  top: 0.5px;
 }
 
 a.btn:hover {
-  border-right: 0.5px solid #0c4d6e;
   width: 120px;
   height: 24px;
   text-align: center;
@@ -89,13 +80,13 @@ li.main {
 
 ul.sub {
   position: absolute;
-  bottom: -407px; /*ヘッダー調整*/
+  bottom: -409px; /*ヘッダー調整*/
   left: -14px;
   display: none;
   padding-bottom: 20px;
   padding-top: 25px;
   margin-left: 14px;
-  width: 120px;
+  width: 121px;
   background: #e4f4fc;
   z-index: 100;
 }
