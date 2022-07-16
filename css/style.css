@@ -38,7 +38,7 @@ nav.header_menu {
   background:
     url(image/arrowback.png) no-repeat center left .8em/1.4em #1791cf;
   background:
-    url(image/arrowback.png) no-repeat center left .87em/1.4em,
+    /*url(image/arrowback.png) no-repeat center left .87em/1.4em,*/
     linear-gradient(#3eb0ea, #1588c1) #0f618a;
   font-weight: bold;
 }
