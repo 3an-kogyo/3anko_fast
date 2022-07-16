@@ -143,7 +143,7 @@ nav.side_menu {
   display: block;
   padding: 5px;
   width: 200px;
-  height: 1800px; /*サイトの長さ*/
+  height: 2200px; /*サイトの長さ*/
   margin-left: 200px;
   background: hsla(193, 39%, 58%, 0.72);
 }
@@ -203,7 +203,7 @@ div.home{
   padding: 5px;
   max-width: 880px;
   width: 77.6%;
-  height: 1800px;  /*サイトの長さ*/
+  height: 2200px;  /*サイトの長さ*/
   margin-left: 410px;
   background: white;
 }
