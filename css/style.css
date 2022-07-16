@@ -89,7 +89,7 @@ li.main {
 
 ul.sub {
   position: absolute;
-  bottom: -390px;
+  bottom: -407px; /*ヘッダー調整*/
   left: -14px;
   display: none;
   padding-bottom: 20px;
