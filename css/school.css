@@ -211,38 +211,6 @@ h3 {
   color: #f00000;
 }
 
-p.text {
-  margin: 0px;
-  margin-left: 20px;
-  margin-bottom: 25px;
-  font-size: 90%;
-  color: #4f4f4f;
-}
-
-p.text_in {
-  margin: 0px;
-  margin-left: 37px;
-  margin-bottom: 25px;
-  font-size: 90%;
-  color: #4f4f4f;
-}
-
-p.text2 {
-  margin: 0px;
-  margin-left: 20px;
-  margin-bottom: 10px;
-  font-size: 110%;
-  color: #4f4f4f;
-}
-
-p.text2_in {
-  margin: 0px;
-  margin-left: 37px;
-  margin-bottom: 10px;
-  font-size: 110%;
-  color: #4f4f4f;
-}
-
 a.menu_btn {
   width: 20px;
   text-indent: 0.5em;
@@ -266,15 +234,6 @@ a.menu_btn:hover {
   -o-transition: 0.3s;
   -ms-transition: 0.3s;
   transition: 0.3s;
-}
-
-a.pdf {
-  text-decoration: none;
-  display: block;
-  margin-bottom: 10px;
-  position: relative;
-  left: 20px;
-  font-size: 18px;
 }
 
 footer {
