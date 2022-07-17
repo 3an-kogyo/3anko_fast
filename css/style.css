@@ -52,16 +52,11 @@ a.btn {
   position: relative;
   top: 0.5px;
 }
-
 a.btn:hover {
   width: 120px;
   height: 24px;
-  text-align: center;
   padding: 20px;
   background: #bae3f7;
-  display: block;
-  text-decoration: none;
-  color: black;
 }
 
 li {
@@ -92,15 +87,13 @@ ul.sub {
 }
 
 li.sub {
+  color: black;
   letter-spacing: 0.05em;
   font-size: 16px;
   position: relative;
   right: 10px;
 }
-
 li.sub:hover {
-  color: black;
-  position: relative;
   right: 40px;
   background: #f6fbfe;
   width: 160px;
@@ -120,13 +113,8 @@ a.sub {
   right: 20px;
   text-decoration: none;
 }
-
 a.sub:hover {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  position: relative;
   left: 10px;
-  text-decoration: none;
 }
 
 nav.side_menu {
@@ -188,19 +176,8 @@ a.side_btn {
   bottom: 5px;
   display: flex;
 }
-
 a.side_btn:hover {
-  text-indent: 0.5em;
-  font-size: 18px;
-  color: black;
-  text-decoration: none;
   background: #f6fbfe;
-  padding-top: 10px;
-  padding-bottom: 8px;
-  padding-right: 140px;
-  white-space: nowrap;
-  position: relative;
-  right: 5px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -211,8 +188,7 @@ a.side_btn:hover {
 div.home{
   display: block;
   padding: 5px;
-  max-width: 880px;
-  width: 77.6%;
+  width: 880px;
   height: 2000px;  /*サイトの長さ*/
   margin-left: 410px;
   background: white;
@@ -273,6 +249,7 @@ p.text2_in {
 }
 
 a.menu_btn {
+  width: 20px;
   text-indent: 0.5em;
   margin: 0px;
   font-size: 18px;
@@ -286,20 +263,9 @@ a.menu_btn {
   bottom: 5px;
   display: flex;
 }
-
 a.menu_btn:hover {
-  width: 20px;
-  text-indent: 0.5em;
-  font-size: 18px;
-  color: black;
-  text-decoration: none;
   background: #e0f0fa;
-  padding-top: 10px;
-  padding-bottom: 8px;
   padding-right: 140px;
-  white-space: nowrap;
-  position: relative;
-  right: 5px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -310,7 +276,6 @@ a.menu_btn:hover {
 a.pdf {
   text-decoration: none;
   display: block;
-  margin: 0px;
   margin-bottom: 10px;
   position: relative;
   left: 20px;
@@ -319,10 +284,8 @@ a.pdf {
 
 footer {
   display: block;
-  max-width: 1100px;
-  width: 100%;
-  max-height: 64px;
-  height: 100%;
+  width: 1100px;
+  height: 25px;
   margin-left: 200px;
   background: #0f618a;
   color: #e4f4fc;
